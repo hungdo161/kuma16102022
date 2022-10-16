@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(151, 72, 141) , rgb(199, 22, 61));
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    font-weight: 550;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav__logo-image {
+    width: 20%;
+    height: 20%;
+    margin-right: 15px;
+}
+
+.nav__logo-description {
+    color: #333;
+}
+
+.nav__links {
+    flex: 1;
+    text-align: right;
+    list-style-type: none;
+}
+
+.nav__links-item  {
+    display: inline-block;
+    padding: 0 2rem;
+
+}
+
+
+.nav__links-item a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.nav__links-item a:hover {
+    color: rgb(151, 97, 27);
+}
+
+/* Information */
+
+.informatiton {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+
+#informatiton__circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+.information__PC-image {
+    position: absolute;
+    width: 450px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 27%;
+    z-index: 1;
+}
+
+.informatiton__feature {
+    display: flex;
+    position: absolute;
+    color: white;
+}
+
+.information__image {
+    width: 70px;
+}
+
+.information__description {
+    margin-left: 15px;
+}
+
+.information__message {
+    margin-top: 2px;
+}
+
+.one {
+    top: 450px;
+    right: 45px;
+}
+
+.two {
+    top: 100px;
+    left: 340px;
+    transform: rotate(270deg);
+}
+
+.three {
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(180deg);
+}
+
+.four {
+    bottom: 150px;
+    right: 370px;
+    transform: rotate(90deg);
+}
+
+/* control */
+
+.control {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.control__arrow-image {
+    width: 15%;
+    cursor: pointer;
+}
+
+.control__arrow-image:hover {
+    opacity: 0.7;
+}
+#control__upButton {
+}
+
+#control__downButton {
+    transform: rotate(-180deg);
+}
+
+.control__feature {
+    font-size: 1.8rem;
+    margin:10px 0 ;
+}
+
+.informatiton__overlay {
+    width: 0;
+    height: 0;
+    border-top: 520px solid #fff;
+    border-right: 520px solid transparent;
+    border-bottom: 520px solid #fff;
+    border-left: 520px solid #fff;
+}

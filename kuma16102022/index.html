@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-website-tutorial</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <nav class="nav">
+            <div class="nav__logo">
+                <img class="nav__logo-image" src="./image/logo.png" alt="Logo">
+                <div class="nav__logo-description">Electoric PC design</div>
+            </div>
+
+            <ul class="nav__links">
+                <li class="nav__links-item"><a href="#">Home</a></li>
+                <li class="nav__links-item"><a href="#">Detail</a></li>
+                <li class="nav__links-item"><a href="#">Shop</a></li>
+                <li class="nav__links-item"><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <!-- information section -->
+        <div class="informatiton">
+            <div class="informatiton__overlay"></div>
+            <img src="./image/pc.png" alt="PC" class="information__PC-image">
+            <div id="informatiton__circle">
+                <div class="informatiton__feature one">
+                    <img src="./image/camera.png" alt="Camera" class="information__image">
+                    <div class="information__description">
+                        <h1 class="information__title">Camera</h1>
+                        <p class="information__message">Beautiful lens.</p>
+                    </div>
+                </div>
+                <div class="informatiton__feature two">
+                    <img src="./image/processor.png" alt="Camera" class="information__image">
+                    <div class="information__description">
+                        <h1 class="information__title">processor</h1>
+                        <p class="information__message">Porcessor is very important.</p>
+                    </div>
+                </div>
+                <div class="informatiton__feature three">
+                    <img src="./image/battery.png" alt="Camera" class="information__image">
+                    <div class="information__description">
+                        <h1 class="information__title">Battery</h1>
+                        <p class="information__message">Battery is powerful.</p>
+                    </div>
+                </div>
+                <div class="informatiton__feature four">
+                    <img src="./image/display.png" alt="Camera" class="information__image">
+                    <div class="information__description">
+                        <h1 class="information__title">Display</h1>
+                        <p class="information__message">Beautiful Display.</p>
+                    </div>
+                </div>
+            </div>     
+
+        </div>
+    <!-- control section -->
+    <div class="control">
+        <img src="./image/arrow.png" alt="Arrow" id="control__upButton" class="control__arrow-image">
+        <h3 class="control__feature">Feature</h3>
+        <img src="./image/arrow.png" alt="Arrow" id="control__downButton" class="control__arrow-image">
+    </div>
+    </div>
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>
